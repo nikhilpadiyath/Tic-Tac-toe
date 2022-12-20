@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    justify-items: center;
+}
+
+
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+
+justify-content: center;
+width: 400px;
+}
+h1{
+    align-items: center;
+    color: brown;
+    font-weight: bolder;
+}
+.gridbox{
+    display: grid;
+    border: 1px solid blue;
+    background-color: rgb(214, 182, 245);
+    width: 150px;
+    height:150px;
+}
+#select{
+    height: 50px;
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
