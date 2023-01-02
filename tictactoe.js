@@ -33,9 +33,13 @@ let displayControlModule = (function(){
             }
             index++;
         })
+        gameBoardModule.makePlayerMove();
     }
     index++;
    })
+   const startGameButton = document.querySelector("#startbtn");
+   startGameButton.addEventListener("click",createPlayer);
+   return{};
 })();
 let createPlayer = () => {
     for(let i=0; i<4; i++){
