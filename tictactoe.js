@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded",(event)=>{
 let createPlayer = () => {
   for (let i = 0; i < 4; i++) {
     if (gameBoardModule.playerArray.length >= 6) {
@@ -34,7 +35,6 @@ let createPlayer = () => {
     }
   }
 };
-
 let gameBoardModule = (function () {
   let gameBoard = [];
   let playerArray = [];
@@ -150,3 +150,4 @@ let displayControlModule = (function () {
     location.reload();
   }
 })();
+})
