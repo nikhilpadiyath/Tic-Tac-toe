@@ -127,52 +127,8 @@ export default function Home() {
           <h3 className=" text-3xl py-1  dark:text-white">Portfolio</h3>
           <p className="text-md py-5 leading-8 text-gray-600 dark:text-pink-300">
             I am a beginner in the coding field, so I will be really hepful in the junior level developing in <span className= "text-teal-500">React</span> using <span className= "text-teal-500">JavaScript/TypeScript</span>.
-            I have done a couple of projects in it which is available in my GIT page for your reference.
+            I have done a couple of projects using <span className= "text-teal-500">React, Redux, NextJS, Tailwind CSS using JavScript,CSS and HTML </span>which is available in my GIT page for your reference.
           </p>
-        </div>
-        <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
-          <div className="basis-1/3 flex-1">
-            <Image src={web1} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive />
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image src={web2} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive />
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image src={web3} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive />
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image src={web4} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive/>
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image src={web5} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive />
-          </div>
-          <div className="basis-1/3 flex-1">
-            <Image src={web6} 
-            className="rounded-lg object-cover" 
-            width={'100%'} 
-            height={'100%'}
-            responsive />
-          </div>
         </div>
       </section>
 
