@@ -40,14 +40,18 @@ let gameBoardModule = (function () {
   let playerArray = [];
   let makePlayerMove = () => {
     if (gameBoard.length == 0) {
-      alert("Player 1, make your move!");
-      gameBoard.push(playerArray[2]);
+    alert("``Player 1, make your move!");
+    gameBoard.push(playerArray[2]);
+    console.log("Show me the current gameboard array...", gameBoard);
+      
     } else if (gameBoard[gameBoard.length - 1] == "X") {
       alert("Player 2, make your move!");
       gameBoard.push(playerArray[5]);
+      console.log("Show me the current gameboard array...", gameBoard);
     } else if (gameBoard[gameBoard.length - 1] == "O") {
       alert("Player 1, make your move!");
       gameBoard.push(playerArray[2]);
+      console.log("Show me the current gameboard array...", gameBoard);
     }
   };
   return { gameBoard, playerArray, makePlayerMove };
